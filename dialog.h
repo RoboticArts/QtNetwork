@@ -13,10 +13,20 @@ class Dialog : public QDialog
 
 public:
     explicit Dialog(QWidget *parent = 0);
+
+    void EditPlainTextServer(QString text);
+    void EditPlainTextClient(QString text);
+
     ~Dialog();
 
 private:
     Ui::Dialog *ui;
+
+
+public slots:
+
+    void LabelServerActivateDesactivate();
+    void LabelClientConnectDisconnect();
 };
 
 #endif // DIALOG_H

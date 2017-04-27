@@ -6,37 +6,83 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>319</width>
-    <height>101</height>
+    <width>455</width>
+    <height>308</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QPushButton" name="pushButtonCliente">
+  <widget class="QCheckBox" name="checkBoxClient">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>40</y>
-     <width>75</width>
-     <height>23</height>
+     <x>270</x>
+     <y>20</y>
+     <width>70</width>
+     <height>17</height>
     </rect>
    </property>
    <property name="text">
     <string>Cliente</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButtonServidor">
+  <widget class="QCheckBox" name="checkBoxServer">
    <property name="geometry">
     <rect>
-     <x>200</x>
-     <y>40</y>
-     <width>75</width>
-     <height>23</height>
+     <x>50</x>
+     <y>20</y>
+     <width>70</width>
+     <height>17</height>
     </rect>
    </property>
    <property name="text">
     <string>Servidor</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEditClient">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>70</y>
+     <width>191</width>
+     <height>161</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEditServer">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>70</y>
+     <width>191</width>
+     <height>161</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelConnectDisconnect">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>40</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Desconectado</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelActivateDesactivate">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>40</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Desactivado</string>
    </property>
   </widget>
  </widget>
